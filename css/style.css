@@ -1,0 +1,58 @@
+body {
+    font-size: 20px;
+    font-family: Verdana, sans-serif;
+}
+
+.container {
+    width: 300px;
+    margin: auto;
+  }
+
+#app h1 {
+    font-size: 16px;
+    border-bottom: 1px solid #ddd;
+    padding: 16px 0;
+}
+
+#app li {
+    line-height: 1.5;
+  }
+
+#app input[type="text"] {
+    padding: 2px;
+}
+
+.command {
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 10px;
+    background: red;
+    cursor: pointer;
+    color: white;
+  }
+
+#app ul {
+    padding: 0;
+    list-style:none;
+}
+
+#app li > span.done {
+    text-decoration: line-through;
+    color: #bbb;
+}
+
+.info {
+    color: #bbb;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+#app h1 > button {
+    float: right;
+}
+
+.state {
+   font-size: 20px;
+   cursor: pointer;
+}
